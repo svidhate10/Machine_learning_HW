@@ -1,6 +1,18 @@
-# Exoplanet Exploration
+# Machine Learning Homework - Exoplanet Exploration
 
 ![exoplanets.jpg](Images/exoplanets.jpg)
+
+### Before You Begin
+
+1. Create a new repository for this project called `machine-learning-challenge`. **Do not add this homework to an existing repository**.
+
+2. Clone the new repository to your computer.
+
+3. Give each model you choose their own Jupyter notebook, **do not use more than one model per notebook.**
+
+4. Save your best model to a file. This will be the model used to test your accuracy and used for grading.
+
+5. Commit your Jupyter notebooks and model file and push them to GitHub.
 
 ## Note
 
@@ -24,7 +36,7 @@ In this homework assignment, you will need to:
 
 ### Preprocess the Data
 
-* Preprocess the raw dataset prior to fitting the model.
+* Preprocess the dataset prior to fitting the model.
 * Perform feature selection and remove unnecessary features.
 * Use `MinMaxScaler` to scale the numerical data.
 * Separate the data into training and testing data.
@@ -34,9 +46,9 @@ In this homework assignment, you will need to:
 * Use `GridSearch` to tune model parameters.
 * Tune and compare at least two different classifiers.
 
-### Evaluate Model Performance
+### Reporting
 
-Compare the performance of two or more classifiers to determine the best model performance.
+* Create a README that reports a comparison of each model's performance as well as a summary about your findings and any assumptions you can make based on your model (is your model good enough to predict new exoplanets? Why or why not? What would make your model be better at predicting new exoplanets?).
 
 - - -
 
@@ -56,14 +68,22 @@ Compare the performance of two or more classifiers to determine the best model p
 
 * Start by cleaning the data, removing unnecessary columns, and scaling the data.
 
+* Not all variables are significant be sure to remove any insignificant variables.
+
+* Make sure your `sklearn` package is up to date.
+
 * Try a simple model first, and then tune the model using `GridSearch`.
 
 - - -
 
 ## Submission
 
-* Create a Jupyter Notebook and host the notebook on GitHub.
+* Create a Jupyter Notebook for each model and host the notebooks on GitHub.
+
+* Create a file for your best model and push to GitHub
 
 * Include a README.md file that summarizes your assumptions and findings.
 
 * Submit the link to your GitHub project to Bootcamp Spot.
+
+##### © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
